@@ -1,0 +1,60 @@
+.widget-name{
+   padding-bottom: 5px;
+   font-weight: bold;
+}
+
+.widegts-card-container{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+  
+}
+
+.widget-card-container{
+    width: 400px;    
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.card-name{
+    font-weight: bold;
+}
+
+.card-text{
+    text-align:center;
+    padding-top:50px;
+}
+.add-card{
+    width: 400px;
+    min-height: 200px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.add-card-btn{
+    padding: 1px;
+    background: #fff;
+    border: 1px gray solid;
+    cursor: pointer;
+}
+
+.widget-name{
+    font-weight: bold;
+    padding-bottom: 5px;
+
+}
+
+
+
+

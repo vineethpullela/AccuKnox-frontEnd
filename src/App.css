@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+  
+}
+
+
+
+
+
+.app-container{
+display: flex;
+flex-direction: column;
+background: white;
+margin:20px;
+}
+
+.nav-container{
+  display: flex;
+ justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+}
+
+.tag-container{
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+
+.search-container{
+  display: flex;
+  align-items: center;
+  background-color: rgb(230, 242, 253);
+  padding: 8px 10px 8px 10px;
+  width: 350px;
+  border-radius: 5px;
+ border: 3px rgb(213, 237, 235) solid;
+
+}
+
+.search-input{
+  border: none;
+  background: transparent;
+width: 100%;
+outline: none;
+color: rgb(153, 167, 180);
+font-family: poppins;
+
+}
+
+.account-and-notification-container{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.dashboard-container{
+  background-color: rgb(223, 238, 251);
+    border-radius: 10px;
+  padding: 15px;
+  
+}
+
+.dashboard-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.dashboard-heading{
+  font-family: Poopins;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.dashboard-nav-tag-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+ 
+  
+}
+
+.addwidget-btn{
+  padding: 3px 10px 3px 10px;
+  background: white;
+  color: rgb(84, 95, 102);
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+.sync-btn{
+  padding: 3px 10px 3px 10px;
+  background: white;
+  color: rgb(84, 95, 102);
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.three-dot-btn{
+  padding: 3px 10px 3px 10px;
+  background: white;
+  color: rgb(84, 95, 102);
+  border-radius: 5px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+.date-filter{
+  padding: 3px 10px 3px 10px;
+  background: white;
+  color: rgb(84, 95, 102);
+  border-radius: 5px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+.widgets-container{
+  margin-left:30px ;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.widget-container{
+  
+}
+
+.widgets-cards-container{
+  display: flex;
+  gap: 6px;
+  overflow: auto;
+}
+
+
+
+.widget-heading{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Poopins;
+}
+
+
+
+.add-widget-btn{   
+  padding: 8px 10px 8px 10px;
+  background: white;
+  color: rgb(84, 95, 102);
+  border: 1px rgb(79, 126, 139) solid;
+  border-radius: 5px;
+  font-weight: 600; margin-top: 15%;
+  cursor: pointer;
+ 
+}
+
+/*side bar*/
+
+
+/*   -------------- */
+
+
+.error{
+ align-self: center;
+  width: 400px;
+}

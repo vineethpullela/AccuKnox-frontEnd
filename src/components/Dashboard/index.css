@@ -1,0 +1,64 @@
+.dashboard-container {
+  width:100vw;
+  min-height:100vh;
+     margin: 10px;
+    padding-bottom: 5px;
+    background-color: #bed7f0;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .title {
+    font-weight: 800;
+    font-size: 18px;
+  }
+  
+  .header-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+  }
+  
+  .btn{
+    padding: 5px 10px 5px 10px;
+    border: 1.5px solid #c4c4c4;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .date-filter{
+    padding: 5px 10px 5px 10px;
+    border: 1.5px solid #c4c4c4;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    fill: #666;
+  }
+
+
+  .widgets-card-container{
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    margin-right:20px;
+    margin-bottom: 5px;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .no-widget{
+    text-align:center;
+    margin-top:50px;
+    font-size:26px;
+  }

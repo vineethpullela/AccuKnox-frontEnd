@@ -1,0 +1,73 @@
+.side-bar-container{
+    position: fixed;
+    top: 10px;
+    right: 0;
+    height: 540px;
+    width: 500px;
+    z-index: 999;
+    background-color: white; 
+  padding: 10px;
+  
+}
+
+.hd-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #040468;
+color:#fff;
+height: 50px;
+padding: 10px;
+
+}
+.hd-name{
+    color:#fff;
+    font-size: 22px;
+
+}
+
+.cl-btn{
+border: none;
+background-color: transparent;
+outline: none;
+cursor: pointer;
+color: black;
+color:#fff;
+
+}
+
+.content-container{
+   height: 240px;
+        display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+    border: 1px gray solid;
+}
+
+.add-select{
+    border:  1px gray solid;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+.add-widget-input{
+    border: 1px gray solid ;
+    padding: 2px;
+
+}
+
+.btn-container{
+   display: flex;
+   justify-content: flex-end;
+   gap: 3px;
+   align-items: center;
+   margin-top: 5px;
+}
+
+.s-btn{
+    background: #01123d;
+    color: #fff;
+}
+
